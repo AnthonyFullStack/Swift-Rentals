@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="lightpick.css">
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+
+
+        <div class="section section1 open">
+            <h1>Need a ride?</h1>
+            <p>Welcome to beautiful New Zealand! </p>
+            <img src="asset/page1img11.jpg" alt="">
+            <p>Free sign up to ride with style and enjoy the views.</p>
+            <form action="#" class="signup-form">
+                <div class="oneline">
+
+                    <input type="text" name="email" class="email" placeholder="Example@gmail.com">
+                    <div class="termsandconditions">
+                        <label for="termsandconditions"> * Terms & Conditions </label><br>
+                        <input type="checkbox" name="check1" id="check1">
+                    </div>
+
+                </div>
+                <input type="submit" class="button" value="Book Vehicle">
+            </form>
+        </div>
+
+
+
+        <div class="section section2">
+            <h2>Thank you for choosing SWIFT Rentals</h2>
+            <p>Fill in the details and we will work out which vehicle is best suited for you.</p>
+
+            <form action="#" class="form2">
+                <div class="questionboxes">
+                    <div class="question1">Driver's license verification:</div>
+                    <select name="slct1" id="slct1">
+                        <option value="New Zealand license">New Zealand license</option>
+                        <option value="International license">International license</option>
+                    </select>
+
+                    <div class="slct3">
+                        <div class="byitself">
+                            <p>You have chosen <span class="days">0</span> days.</p>
+                        </div>
+                        <input type="text" id="q2" name="my-days" class="my-days"
+                            placeholder="(dd/mm/yyyy) - (dd/mm/yyyy)">
+                    </div>
+                </div>
+
+                <div class="question2">How many people will get on Vehicle?</div>
+                <select name="slct2" id="slct2">
+
+                    <option value="1" selected>1 person</option>
+                    <option value="2">2 people</option>
+                    <option value="3">3 people</option>
+                    <option value="4">4 people</option>
+                    <option value="5">5 people</option>
+                    <option value="6">6 people</option>
+                </select>
+                <input type="submit" class="button2" value="Next">
+            </form>
+
+        </div>
+
+        <div class="section section3">
+
+            <div class="choice choice-motorbike" data-choice="motorbike" data-fuel="3.7" data-price="109">
+                <div class="heading">
+                    <h3>Motorbike - $109/day </h3>
+                    <p> ( 3.7l/100km )</p>
+                </div>
+                <img src="asset/FMotorbike.jpg" alt="">
+                <div class="button3">Select</div>
+            </div>
+
+            <div class="breakline"></div>
+
+            <div class="choice choice-smallcar" data-choice="smallcar" data-fuel="8.5" data-price="129">
+                <div class="heading">
+                    <h3>Small Car - $129/day </h3>
+                    <p> ( 8.5l/100km )</p>
+                </div>
+                <img src="asset/FSmallcars.jpg" alt="">
+                <div class="button3">Select</div>
+            </div>
+
+            <div class="breakline"></div>
+
+            <div class="choice choice-largecar" data-choice="largecar" data-fuel="9.7" data-price="144">
+                <div class="heading">
+                    <h3>Large Car - $144/day </h3>
+                    <p> ( 9.7l/100km )</p>
+                </div>
+                <img src="asset/FLargecars.jpg" alt="">
+                <div class="button3">Select</div>
+            </div>
+
+            <div class="breakline"></div>
+
+            <div class="choice choice-motorhome" data-choice="motorhome" data-fuel="17" data-price="200">
+                <div class="heading">
+                    <h3>Motor Home - $200/day </h3>
+                    <p> ( 17l/100km )</p>
+                </div>
+                <img src="asset/FMotorhome.jpg" alt="">
+                <div class="button3">Select</div>
+            </div>
+
+
+        </div>
+
+        <div class="section section4">
+            <form action="#">
+                <div class="payments">
+                    <h4><b>Total payment for your vehicle is $<span id="vehicleprice"></span></b></h4>
+                    <div class="payments2">
+                        <p><i class="fab fa-cc-visa">
+                            </i><i class="far fa-credit-card"></i>Visa / Credit card</p>
+                    </div>
+                </div>
+                <div class="cardinfo">
+                    <label for="cardnumber">Card Number:</label>
+                    <input type="text" name="cardnumber" id="cardnumber" placeholder="XXXX-XXXX-XXXX-XXXX"
+                        style="width: 13em;">
+                </div>
+                <div class="cardinfo">
+                    <label for="nameoncard">Name on Card:</label>
+                    <input type="text" name="Name on Card" id="nameoncard" placeholder="" style="width: 12.51em;">
+                </div>
+                <div class="cardinfo">
+                    <label for="Expirationdate">Expiration date:</label>
+                    <input type="text" name="Expiration date" id="Expiration" placeholder="(MM/YY)" style="width: 5em;">
+                </div>
+                <div class="cardinfo">
+                    <label for="CardNumber">Security Code:</label>
+                    <input type="text" name="Security Code" id="Security" placeholder="XXX" style="width: 2.5em;">
+                </div>
+
+
+                <h6>Transport Cost</h6>
+
+
+                <div class="questionboxes questionboxes2">
+                    <form class="pure-form pure-form-stacked">
+                        <fieldset>
+                            <div class="div"></div>
+                            <label for="from">From</label>
+                            <select id="from" name="from">
+                                <option value="Auckland">Auckland</option>
+                                <option value="Kaitaia">Kaitaia</option>
+                                <option value="Whangarei">Whangarei</option>
+                                <option value="Hamilton">Hamilton</option>
+                                <option value="Tauranga">Tauranga</option>
+                                <option value="Rotorua">Rotorua</option>
+                                <option value="Gisborne">Gisborne</option>
+                                <option value="Napier">Napier</option>
+                                <option value="North Island">North Island</option>
+                                <option value="New Plymouth">New Plymouth</option>
+                                <option value="Palmerston North">Palmerston North</option>
+                                <option value="Wellington">Wellington</option>
+                                <option value="Nelson">Nelson</option>
+                                <option value="Greymouth">Greymouth</option>
+                                <option value="Christchurch">Christchurch</option>
+                                <option value="Timaru">Timaru</option>
+                                <option value="Oamaru">Oamaru</option>
+                                <option value="Dunedin">Dunedin</option>
+                                <option value="Gore">Gore</option>
+                                <option value="Invercargill">Invercargill</option>
+                                <option value="Fiordland National Park">Fiordland National Park</option>
+                                <option value="Queenstown">Queenstown</option>
+
+
+
+
+                            </select>
+
+                            <label for="to">To</label>
+                            <select id="to" name="to">
+                                <option value="Auckland">Auckland</option>
+                                <option value="Kaitaia">Kaitaia</option>
+                                <option value="Whangarei">Whangarei</option>
+                                <option value="Hamilton">Hamilton</option>
+                                <option value="Tauranga">Tauranga</option>
+                                <option value="Rotorua">Rotorua</option>
+                                <option value="Gisborne">Gisborne</option>
+                                <option value="Napier">Napier</option>
+                                <option value="North Island">North Island</option>
+                                <option value="New Plymouth">New Plymouth</option>
+                                <option value="Palmerston North">Palmerston North</option>
+                                <option value="Wellington">Wellington</option>
+                                <option value="Nelson">Nelson</option>
+                                <option value="Greymouth">Greymouth</option>
+                                <option value="Christchurch">Christchurch</option>
+                                <option value="Timaru">Timaru</option>
+                                <option value="Oamaru">Oamaru</option>
+                                <option value="Dunedin">Dunedin</option>
+                                <option value="Gore">Gore</option>
+                                <option value="Invercargill">Invercargill</option>
+                                <option value="Fiordland National Park">Fiordland National Park</option>
+                                <option value="Queenstown">Queenstown</option>
+
+
+
+
+                            </select>
+
+                            <button type="submit" class="pure-button pure-button-primary">Get Distance</button>
+                            <p class="distance"></p>
+                            <p class="time"></p>
+                        </fieldset>
+                    </form>
+
+                    <form id="form">
+                        Travel Distance (km):<input id="inputFeet" type="text" name="feet" required><br>
+                        Fuel price $/L:<input id="inputMinutes" type="text" name="minutes" required><br><br>
+                        L/100km:<input id="inputSeconds" type="text" name="seconds" required><br><br>
+                        <input id="button" type="button" onclick="calculateFuelCost()" value="Calculate" />
+                    </form>
+                    <p><b>Your fuel cost is $<span id="result"></span> </b></p>
+                </div>
+            </form>
+            <div class="button4">Next</div>
+        </div>
+
+        <div class="section section5">
+            <h5>Thank you for using Swift Rentals.</h5>
+            <h7>Your receipt has been sent to your email.</h7>
+            <img src="asset\lastpage img1.jpg" alt="">
+            <p>A friendly reminder to have a look at the NZ driving code before making your journey. Be cautious
+                on rainy days as it is very slippery and please drive safe. We hope you enjoy your travel around New
+                Zealand.
+            <div class="button5">Complete</div>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+    <script src="lightpick.js"></script>
+    <script src="script.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDknEtmtQzCjjFGOAJiHVFKcBegAsUBUKc&callback=initMap">
+        </script>
+</body>
+
+</html>

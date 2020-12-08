@@ -1,0 +1,665 @@
+*{
+    padding: 0em;
+    margin: 0em;
+}
+.wrap{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #353535;
+}
+
+.section{
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    top:0;
+    left:0;
+    background-color:#353535;
+    display: none;
+    /* pointer-events: none; */
+}
+
+
+
+.section1 img{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 0.1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+
+.section1 h1{
+    color:#98C189;
+    padding-top: 3.8em;
+    margin: 0;
+    padding-bottom: 0.3em;
+}
+
+.section1 p{
+    color:#98C189;
+    width: 70%;
+    margin: auto;
+    font-style: italic;
+    padding: 0.2em;
+}
+.oneline{
+    margin: auto;
+    padding: 1em;
+    color: #AEAEAE;
+}
+
+.email{
+    padding: 0.5em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:80%;
+    outline: none;
+}
+
+.termsandconditions{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 3em;
+    padding: 0;
+    font-size: 0.8em;
+}
+
+input#check1{
+    margin: 0.05em 0.8em;
+    display: inline-block;
+    border:thick green solid;
+}
+
+.open{
+    opacity: 1;
+    z-index: 50;
+    display: block;
+}
+.button{
+    z-index: 100;
+    background-color: rgba(238, 169, 42, 0.877);
+    padding: 0.8em 2.5em;
+    width: 80%;
+    margin: auto;
+    font-size: 1.2em;
+    border-radius: 0.1em;
+    color: #353535;
+    border: none;
+}
+
+#slct1{
+    padding: 0.5em;
+    width: 84.5%;
+    margin-bottom: 1em;
+    text-align-last: center;
+
+}
+
+#slct2{
+    padding: 0.5em;
+    width: 84.5%;
+    text-align-last: center;
+}
+
+#q2 .my-days{
+    width: 50%;
+}
+
+#demo{
+    color: #98C189;
+}
+
+.byitself{
+}
+
+.section2 h2{
+    color: #98C189;
+    margin: auto;
+    margin: 1em;
+    padding-top: 3em;
+}
+
+.question1{
+    padding: 0.5em;
+    color: #AEAEAE;
+}
+
+.question2{
+    padding: 0.5em;
+    color: #AEAEAE;
+}
+
+
+.section2 p{
+    color:#AEAEAE;
+    margin: auto;
+    padding-bottom: 2em;
+    padding: 2em;
+}
+
+.questionboxes{
+    margin: 0;
+}
+
+.questionboxes input{
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    width: 75%;
+    padding: 1em;
+}
+
+.questionboxes p{
+    padding: 0;
+    border: none;
+}
+
+.questionboxes form{
+    width: 90%;
+	max-width: 40em;
+	box-sizing: border-box;
+	padding:1em;
+    margin:1em auto;
+}
+
+fieldset{
+    margin: 0.2em auto;
+    width: 100%;
+    height: 40vh;
+    border: none;
+    outline: none;
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+
+fieldset label{
+    color: #353535;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+fieldset #from{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    text-align-last: center;
+}
+fieldset #to{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    text-align-last: center;
+}
+
+button.pure-button.pure-button-primary{
+    background-color: rgb(31, 31, 31);
+    border: none;
+    padding: 0.7em 3em;
+    border-radius: 3em;
+    margin: 1em auto;
+    color: #98C189;
+    outline: none;
+}
+
+.button2{
+    background-color: rgba(238, 169, 42, 0.877);
+    padding: 0.8em 2.5em;
+    width: 80%;
+    margin: 3em auto;
+    font-size: 1.2em;
+    border-radius: 0.1em;
+    color: #353535;
+    border: none;
+}
+
+
+.section3{
+    box-sizing: border-box;
+    text-align: center;
+    height: 237vh;
+    background-color: #353535;
+    width: 100%;
+    /* z-index: 100; */
+}
+
+.section3 .choice-motorbike img{
+    width: 90%;
+    box-sizing: border-box;
+    padding-top: 3.5em;
+}
+
+.section3 .choice-smallcar img{
+    width: 99%;
+    box-sizing: border-box;
+    padding-top: 2.5em;
+}
+
+.section3 .choice-largecar img{
+    display: block;
+    width: 99%;
+    box-sizing: border-box;
+    padding-top: 2.5em;
+}
+
+.section3 .choice-motorhome img{
+    display: block;
+    width: 99%;
+    box-sizing: border-box;
+    padding-top: 2.5em;
+}
+
+.heading{
+    background-color: #98C189;
+    padding: 0.6em;
+    color: #353535;
+    box-shadow: -2px 1px 24px 5px rgba(0,0,0,0.48);
+}
+
+.heading h3{
+    margin-bottom: 0.1em;
+    font-size: 1.8em;
+}
+
+.heading p{
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.image-slider{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+    box-sizing: border-box;
+}
+
+.dots1{
+    display: flex;
+    position: absolute;
+    top: 30em;
+    z-index: 100;
+    width: 30%;
+}
+  
+.dots1 .dot {
+    width: 0.8em;
+    height: 0.8em;
+    border: thin white solid;
+    border-radius: 50%;
+    margin: 0.3em;
+    left: 1em;
+}
+  
+.dots1 .current-dot {
+    background-color: white;
+}
+
+.dots2{
+    display: flex;
+    position: absolute;
+    top: 65em;
+    z-index: 100;
+    width: 30%;
+}
+  
+.dots2 .dot {
+    width: 0.8em;
+    height: 0.8em;
+    border: thin white solid;
+    border-radius: 50%;
+    margin: 0.3em;
+}
+  
+.dots2 .current-dot {
+    background-color: white;
+}
+
+.dots3{
+    display: flex;
+    position: absolute;
+    top: 98.5em;
+    z-index: 100;
+    width: 30%;
+}
+  
+.dots3 .dot {
+    width: 0.8em;
+    height: 0.8em;
+    border: thin white solid;
+    border-radius: 50%;
+    margin: 0.3em;
+}
+  
+.dots3 .current-dot {
+    background-color: white;
+}
+
+.dots4{
+    display: flex;
+    position: absolute;
+    top: 148.5em;
+    z-index: 100;
+    width: 30%;
+}
+  
+.dots4 .dot {
+    width: 0.8em;
+    height: 0.8em;
+    border: thin white solid;
+    border-radius: 50%;
+    margin: 0.3em;
+}
+  
+.dots4 .current-dot {
+    background-color: white;
+}
+
+.arrows{
+    position: absolute;
+    top: 5.5em;
+    z-index: 100;
+    font-size: 3em;
+    color: #98C189;
+    display: flex;
+    justify-content: space-evenly;
+    width: 220%;
+    transform: translate(0%);
+}
+
+
+.choice{
+    width: 100%;
+}
+
+.choice-motorbike img{
+    margin: auto;
+    padding: 2em;
+}
+
+.choice-smallcar img{
+    margin: auto;
+    width: 90%;
+    padding: 1em;
+}
+
+.choice-largecar img{
+    margin: auto;
+    width: 90%;
+    padding: 1em;
+}
+.choice-motorhome img{
+    margin: auto;
+    width: 90%;
+    padding: 1em;
+}
+
+.button3{
+    color: #353535;
+    padding: 0.5em 1em;
+    background-color: rgba(238, 169, 42, 0.877);
+    border-radius: 0.1em;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.13);
+    width: 80%;
+    margin: 1em auto;
+}
+
+
+
+.breakline{
+    border-top: 2px dotted #aeaeae;
+    margin: 2.5em auto;
+    width: 111%;
+    transform: translate(-10%);
+}
+
+.questionboxes2{
+    margin: auto;
+    padding: 0;
+    font-weight: bold;
+}
+
+.button4{
+    color: #353535;
+    padding: 0.8em 2.5em;
+    background-color: rgba(238, 169, 42, 0.877);
+    margin-bottom: 1em;
+    border-radius: 0.1em;
+    font-size: 1.2em;
+    width: 54%;
+    margin: 3em auto;
+}
+
+.distance{
+    color: #98C189;
+    font-weight: bold;
+
+}
+.time{
+    color: #98C189;
+}
+
+.button5{
+    color: #353535;
+    padding: 0.5em;
+    background-color: rgba(238, 169, 42, 0.877);
+    border-radius: 0.1em;
+    margin: 1em;
+}
+
+.payments{
+    text-align: center;
+}
+
+
+.payments h4 b{
+    color:#353535;
+    font-size: 1.5em;
+    width: 87%;
+    background-color: #98C189;
+    padding: 1em;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.payments2{
+    color: white;
+    font-size: 1.2em;
+    padding-top: 3em;
+}
+
+/* .payments p{
+    color: white;
+    font-size: 1.2em;
+    padding-top: 3em;
+
+} */
+
+.payments i{
+    color: white;
+    font-size: 1em;
+    padding: 0.1em;
+    padding-right: 1em;
+}
+
+.cardinfo{
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: left;
+}
+
+.cardinfo label{
+    padding-right: 0.5em;
+    padding-left: 1em;
+}
+
+.button5{
+    color: #353535;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 3em;
+    padding: 1em 2em;
+    border-radius: 0.1em;
+    width: 62%;
+    margin: 3em auto;
+}
+
+.payments{
+    display: block;
+}
+
+.payments2{
+    padding: 2em;
+    margin-top: 1em;
+}
+
+
+h6{
+    color: #353535;
+    background-color: #98C189;
+    padding: 1em;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+
+.section4{
+    box-sizing: border-box;
+    height: 182vh;
+    background-color: #353535;
+    color: #AEAEAE;
+}
+
+.div{
+    padding: 1em;
+}
+
+
+#from{
+    color: #353535;
+}
+
+#to{
+    color: #353535;
+}
+
+
+#button{
+    color: #98C189;
+    padding: 0.8em 2.5em;
+    width: 65%;
+    margin: auto;
+    background-color: #1f1f1f;
+    border: none;
+    border-radius:3em;
+    outline: none;
+}
+
+/* #button:hover{
+    background color: green;
+    color: white;
+} */
+
+
+#inputFeet{
+    padding: 0.3em;
+    width: 70%;
+    margin: auto;
+    color: #353535;
+    margin-bottom: 1.3em;
+}
+
+b{
+    color: #98C189;
+    font-weight: normal;
+}
+
+#inputSeconds{
+    padding: 0.3em;
+    width: 70%;
+    margin: auto;
+    color: #353535;
+}
+
+#inputMinutes{
+    padding: 0.3em;
+    width: 70%;
+    margin: auto;
+    color: #353535;
+}
+
+#cardnumber{
+    text-indent: 0.5em;
+}
+
+#Expiration{
+    text-indent: 0.6em;
+}
+
+#Security{
+    text-indent: 0.2em;
+}
+
+.section5{
+    max-height: 100vh;
+}
+
+.section5 h5{
+    color: #98C189;
+    font-size: 1.5em;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.section5 h7{
+    color: #98C189;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.section5 img{
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 4em;
+}
+
+.section5 p{
+    color: #AEAEAE;
+    width: 90%;
+    margin: auto;
+    padding-top: 2em;
+    font-style: oblique;
+}
+
+
+.choice{
+    pointer-events: none;
+    filter: grayscale(1);
+}
+
+.available{
+    background-color:#353535;
+    pointer-events: auto;
+    filter: grayscale(0);
+}
+.selected img{
+    border:thin red solid;
+}
